@@ -7,6 +7,26 @@
 1. [使い方の流れ](./usage_flows.md)
 2. [運用ガイド](./backlog_automation_guide.md)
 
+## 既存プロジェクトへの入れ方
+
+既存プロジェクトに入れる時は、**案件の直下にばらまかず**、`tools/backlog_automation_kit/` にまとめて置きます。
+
+入れ方は 2 通りです。
+
+### 1. Zip で入れる
+
+1. `backlog_automation_kit.zip` を受け取る
+2. 既存プロジェクトの中に `tools/` を作る
+3. `tools/backlog_automation_kit/` として展開する
+
+### 2. GitHub から入れる
+
+1. GitHub で `Code` -> `Download ZIP` を選ぶ
+2. 既存プロジェクトの中に `tools/` を作る
+3. `tools/backlog_automation_kit/` として展開する
+
+Git を使う場合も、この Kit を既存案件の main リポジトリに無理に混ぜず、**個人で tools 配下に置いて使う** 形を推奨します。
+
 ## `.env` の書き方
 
 `.env.sample` をコピーして `.env` を作ります。
@@ -68,3 +88,4 @@ BACKLOG_PROJECT_KEY=YOURPROJECT
 
 - markdown の雛形: [task_plan_template.md](./task_plan_template.md)
 - 詳細ルール: [backlog_automation_guide.md](./backlog_automation_guide.md)
+- GitHub: https://github.com/JyozukaTukasa/backlog_automation_kit
