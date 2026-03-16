@@ -7,6 +7,41 @@
 1. [使い方の流れ](./usage_flows.md)
 2. [運用ガイド](./backlog_automation_guide.md)
 
+## `.env` の書き方
+
+`.env.sample` をコピーして `.env` を作ります。
+
+```env
+BACKLOG_SPACE_ID=your-space
+BACKLOG_API_KEY=your-api-key
+BACKLOG_PROJECT_KEY=YOURPROJECT
+```
+
+入れる値:
+- `BACKLOG_SPACE_ID`
+  - Backlog の URL にあるスペース ID です
+  - 例: `https://example.backlog.com` なら `example`
+- `BACKLOG_API_KEY`
+  - Backlog の API 設定画面で発行する API キーです
+- `BACKLOG_PROJECT_KEY`
+  - 対象プロジェクトのキーです
+  - 例: `AITEST`
+
+どこで確認するか:
+- スペース ID
+  - Backlog の URL、または招待メールで確認
+- API キー
+  - Backlog の `Personal Settings` -> `API` で発行
+- プロジェクトキー
+  - 対象プロジェクトで使っているキーを確認
+  - 1つの確認方法として、Backlog Git URL の `/[Project key]/[Repository].git` に含まれます
+
+参考:
+- Backlog API Settings: https://support.backlog.com/hc/en-us/articles/115015420567-API-Settings
+- スペースIDとは？: https://support-ja.backlog.com/hc/ja/articles/360036151593-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9ID%E3%81%A8%E3%81%AF
+- Authentication & Authorization: https://developer.nulab.com/docs/backlog/auth/
+- Git summary: https://support.backlog.com/hc/en-us/articles/115015468828-Git-summary
+
 ## まず伝えること
 
 - 新規案件は、要件から `task_plan.md` を作る
