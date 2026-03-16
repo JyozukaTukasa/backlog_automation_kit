@@ -1,0 +1,7 @@
+interface:
+  display_name: "Backlog Automation"
+  short_description: "Operate Backlog safely from JSON and source evidence."
+  default_prompt: "Use $backlog-automation to create, update, report on, or verify Backlog tasks with explicit evidence."
+
+policy:
+  allow_implicit_invocation: true

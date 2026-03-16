@@ -1,0 +1,7 @@
+interface:
+  display_name: "Backlog Task Planning"
+  short_description: "Build Backlog-ready task markdown from requirements and Git."
+  default_prompt: "Use $backlog-task-planning to turn requirements and current Git state into a Backlog-ready markdown task plan."
+
+policy:
+  allow_implicit_invocation: true

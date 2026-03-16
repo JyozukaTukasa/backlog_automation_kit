@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "issue_key": "AITEST-123",
+      "paths_exist": [
+        "src/app.py"
+      ],
+      "grep": [
+        {
+          "path": "src/app.py",
+          "pattern": "def main("
+        }
+      ],
+      "commands": [
+        {
+          "cmd": "python3 -m py_compile src/app.py",
+          "workdir": "."
+        }
+      ],
+      "pass_status_id": 3,
+      "fail_status_id": 2,
+      "repo_name": "sample-repo",
+      "branch": "feature/task-123",
+      "pr_url": "https://github.com/example/sample-repo/pull/10",
+      "implemented": [
+        "main関数を追加した"
+      ],
+      "fixed": [
+        "未使用importを削除した"
+      ],
+      "pm_confirmed": false,
+      "comment_header": "証拠ベース確認結果"
+    }
+  ]
+}
