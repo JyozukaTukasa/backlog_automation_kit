@@ -4,8 +4,8 @@
 
 ## 最初に見るもの
 
-1. [使い方の流れ](/Users/jyokers/Desktop/研修プロジェクト/backlog_automation_kit/usage_flows.md)
-2. [運用ガイド](/Users/jyokers/Desktop/研修プロジェクト/backlog_automation_kit/backlog_automation_guide.md)
+1. [使い方の流れ](./usage_flows.md)
+2. [運用ガイド](./backlog_automation_guide.md)
 
 ## まず伝えること
 
@@ -31,5 +31,5 @@
 
 ## 補足
 
-- markdown の雛形: [task_plan_template.md](/Users/jyokers/Desktop/研修プロジェクト/backlog_automation_kit/task_plan_template.md)
-- 詳細ルール: [backlog_automation_guide.md](/Users/jyokers/Desktop/研修プロジェクト/backlog_automation_kit/backlog_automation_guide.md)
+- markdown の雛形: [task_plan_template.md](./task_plan_template.md)
+- 詳細ルール: [backlog_automation_guide.md](./backlog_automation_guide.md)
