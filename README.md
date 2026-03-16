@@ -15,7 +15,7 @@
 
 ### 1. Zip で入れる
 
-1. `backlog_automation_kit.zip` を受け取る
+1. [`backlog_automation_kit.zip`](./backlog_automation_kit.zip) をダウンロードする
 2. 既存プロジェクトの中に `tools/` を作る
 3. `tools/backlog_automation_kit/` として展開する
 
